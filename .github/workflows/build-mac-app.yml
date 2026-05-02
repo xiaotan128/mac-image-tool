@@ -33,10 +33,10 @@ jobs:
       - name: Zip app
         run: |
           cd dist
-          ditto -c -k --sequesterRsrc --keepParent "框选导出_2MB版.app" "框选导出_2MB版_macOS.zip"
+          ditto -c -k --sequesterRsrc --keepParent "框选导出_2MB版本.app" "框选导出_2MB版本_macOS.zip"
 
       - name: Upload app
         uses: actions/upload-artifact@v4
         with:
-          name: 框选导出_2MB版_macOS
-          path: dist/框选导出_2MB版_macOS.zip
+          name: 框选导出_2MB版本_macOS
+          path: dist/框选导出_2MB版本_macOS.zip
