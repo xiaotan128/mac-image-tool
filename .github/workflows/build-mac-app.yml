@@ -27,8 +27,8 @@ jobs:
             --noconfirm \
             --clean \
             --windowed \
-            --name "框选导出_2MB版" \
-            "框选导出_2MB版_mac.py"
+            --name "框选导出_2MB版本" \
+            "框选导出_2MB版本_mac.py"
 
       - name: Zip app
         run: |
